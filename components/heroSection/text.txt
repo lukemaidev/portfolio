@@ -1,0 +1,9 @@
+          <div className="font-unicaone text-[2vw] text-center">
+                Junior Software Developer
+            </div>
+
+            <div className="text-[1vw] justify-center flex space-x-10 items-center text-center w-screen">
+                <FadeOutBox><Link className="w-1/6 " href="#aboutme" scroll={true}>About me</Link></FadeOutBox>
+                <FadeOutBox><Link className="w-1/6 hover:animate-blinky" href="#projects" scroll={true}>Projects</Link></FadeOutBox>
+                <FadeOutBox><Link className="w-1/6 hover:animate-blinky" href="#contactme" scroll={true}>Contact me</Link></FadeOutBox>
+            </div>

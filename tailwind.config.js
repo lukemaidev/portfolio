@@ -16,8 +16,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        unicaone: ['"Unica One"', ...defaultTheme.fontFamily.sans],
-        martianmono: ['"Martian Mono"', ...defaultTheme.fontFamily.mono],
+        poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         '100%': '100%',
@@ -41,5 +40,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }

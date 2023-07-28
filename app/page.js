@@ -1,5 +1,6 @@
 "use client";
 
+import ContactPage from "@/components/contact";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -72,9 +73,8 @@ export default function Home() {
                   <div className=" row-span-1 col-span-1 min-w-full h-full flex items-center justify-center">
                     About Me
                   </div>
-                  <div className="row-span-4 col-span-1 h-full min-w-full p-4">
+                  <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden">
                   I'm Luke Mai, a soon-to-be-graduate Junior Software Developer with a passion for web and software development. <br/><br/>
-                  My academic journey in computer science has provided a strong foundation in programming, but practical projects have been my true joy.<br/> <br/>
                   Proficient in Next.js and Tailwind CSS, I create dynamic and elegant web experiences. Problem-solving is my forte, and collaboration is integral to my approach.<br/> <br/>
                   Driven by ambition, I stay updated with industry trends, always seeking growth opportunities. Excited to contribute my skills and make a positive impact, I look forward to the fascinating world of web and software development ahead.
                   </div>
@@ -89,15 +89,25 @@ export default function Home() {
                 </div>
                 <div
                   id="3"
-                  className="snap-start min-w-full h-full flex items-center justify-center grid grid-rows-5"
+                  className="snap-start min-w-full h-full flex items-center justify-center grid grid-rows-5 grid-cols-1"
                 >
-                  Experience
+                   <div className=" row-span-1 col-span-1 min-w-full h-full flex items-center justify-center">
+                    Work History
+                  </div>
+                  <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden">
+                   Work History
+                  </div>
                 </div>
                 <div
                   id="4"
-                  className="snap-start min-w-full h-full flex items-center justify-center grid grid-rows-5"
+                  className="snap-start min-w-full h-full flex items-center justify-center grid grid-rows-5 grid-cols-1"
                 >
-                  Contact
+                 <div className=" row-span-1 col-span-1 min-w-full h-full flex items-center justify-center">
+                    Contact Me
+                  </div>
+                  <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden">
+                  <ContactPage/>
+                  </div>
                 </div>
               </div>
             

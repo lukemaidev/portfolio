@@ -86,6 +86,9 @@ export default function Home() {
                   <div className="  row-span-1 col-span-1 min-w-full h-full flex items-center justify-center">
                     Projects
                   </div>
+                  <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden">
+                    There's no projects for now but there's a gif of a dancing cat <Image src="/cat-sombrero.gif" width={100} height={100} alt="" />
+                  </div>
                 </div>
                 <div
                   id="3"
@@ -95,7 +98,8 @@ export default function Home() {
                     Work History
                   </div>
                   <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden">
-                   Work History
+                    There's no work history for now but there's a gif of a dancing duck <Image src="/duck-dance.gif" width={100} height={100} alt="" />
+                  
                   </div>
                 </div>
                 <div

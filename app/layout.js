@@ -1,5 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,8 +16,9 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link rel="icon" href="/cat-sombrero.gif" sizes="any"/>
+        
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" crossOrigin='anonymous'/>
+        <link rel="icon" href="/cat-sombrero.gif" sizes="any"/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

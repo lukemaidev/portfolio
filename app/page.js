@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="w-screen h-screen overflow-hidden flex items-center text-poppins justify-center">
+      <div className="w-screen h-full md:h-screen overflow-hidden flex items-center text-poppins justify-center">
         <div className="glass w-full h-full md:w-2/3 md:h-2/3 grid grid-cols-3 grid-rows-3 p-8 gap-8">
           <div className="glass bg-white/[0.2] row-span-3 col-span-1 overflow-hidden hidden lg:flex flex-col">
             <Image
@@ -103,7 +103,7 @@ export default function Home() {
                   <p className="drop-shadow-lg">About Me</p>
                 </div>
                 <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden ">
-                  <p className="drop-shadow-lg md:text-[1.75vw] lg:text-[1.1vw] ">
+                  <p className="drop-shadow-lg text-[12px] md:text-[1.75vw] lg:text-[1.1vw] ">
                     I'm Luke Mai, a soon-to-be-graduate Junior Software
                     Developer with a passion for web and software development.{" "}
                     <br />

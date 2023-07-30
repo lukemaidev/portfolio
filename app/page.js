@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main>
       <div className="w-screen h-[90vh] md:h-screen overflow-hidden flex items-center text-poppins justify-center">
-        <div className="glass w-full h-full md:w-2/3 md:h-2/3 grid grid-cols-3 grid-rows-3 p-8 gap-8">
+        <div className="md:glass w-full h-full md:w-2/3 md:h-2/3 grid grid-cols-3 grid-rows-3 p-8 gap-8">
           <div className="glass bg-white/[0.2] row-span-3 col-span-1 overflow-hidden hidden lg:flex flex-col">
             <Image
               className="h-2/3 w-full"

@@ -102,8 +102,8 @@ export default function Home() {
                 <div className=" row-span-1 col-span-1 min-w-full h-full flex items-center justify-center">
                   <p className="drop-shadow-lg">About Me</p>
                 </div>
-                <div className="row-span-4 col-span-1 h-full min-w-full p-4 overflow-hidden ">
-                  <p className="drop-shadow-lg text-[16px] md:text-[1.75vw] lg:text-[1.1vw] ">
+                <div className="row-span-4 col-span-1 h-full md:h-full h-full min-w-full p-4 overflow-hidden ">
+                  <p className="drop-shadow-lg text-[12px] h-4/5 md:h-full overflow-hidden md:text-[1.75vw] lg:text-[1.1vw] ">
                     I'm Luke Mai, a soon-to-be-graduate Junior Software
                     Developer with a passion for web and software development.{" "}
                     <br />
